@@ -11,8 +11,8 @@ let rating;
 ratingButtons.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     rating = `You selected ${e.target.value} out of 5`;
-    btn.classList.toggle('desativo');
-    btn.classList.toggle('ativo');
+    btn.classList.toggle('inactive');
+    btn.classList.toggle('active');
   });
 });
 
