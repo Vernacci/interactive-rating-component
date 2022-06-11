@@ -58,14 +58,14 @@ p {
   transition: all 0.1s;
 }
 
-.ativo {
+.active {
   background: var(--orange);
 }
-.desativo {
+.inactive {
   background-color: var(--very-dark-blue);
 }
 
-.rating-btns button:hover {
+.rating-btns button:hover { 
   border: 2px solid var(--orange);
   cursor: pointer;
 }
