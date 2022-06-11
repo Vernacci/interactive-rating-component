@@ -38,7 +38,7 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.4rem;
   color: var(--light-grey);
 }
@@ -52,18 +52,31 @@ p {
   padding: 10px;  
   height: 50px;
   width: 50px;
-  border-radius: 50%;
-  border: none;
-  background-color: var(--very-dark-blue);
+  border-radius: 50%; 
+  border: 2px transparent;
   color: var(--white);
+  transition: all 0.1s;
 }
 
-.submit-btn {
+.ativo {
+  background: var(--orange);
+}
+.desativo {
+  background-color: var(--very-dark-blue);
+}
+
+.rating-btns button:hover {
+  border: 2px solid var(--orange);
+  cursor: pointer;
+}
+
+
+.submit-container {
   display: flex;
   justify-content: center;
 }
 
-.submit {
+.submit-btn {
   margin-top: 30px;
   width: 280px;
   border: none;
@@ -71,4 +84,11 @@ p {
   padding: 10px;
   background-color: var(--orange);
   color: var(--white);
+  transition:  0.3s;
+}
+
+.submit-btn:hover {
+  background-color: var(--white);
+  color: var(--orange);
+  cursor: pointer;
 }
