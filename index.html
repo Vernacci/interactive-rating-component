@@ -29,7 +29,7 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <main class="container">
+    <main class="container-start">
       <div class="rating-start">
         <img src="./images/icon-star.svg" alt="Star icon" class="star" />
         <h1>How did we do?</h1>
@@ -45,7 +45,7 @@
           <button id="five" class="desativo" value="5">5</button>
         </div>
         <div class="submit-container">
-          <button class="submit-btn">Submit</button>
+          <button class="submit-btn" onclick="handleSubmit()">Submit</button>
         </div>
       </div>
     </main>
@@ -53,6 +53,20 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
+    <div class="container-end hide">
+      <div class="rating-end hide">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="Thank you illustration"
+        />
+        <p class="text"></p>
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </div>
 
     <!-- Thank you state end -->
 
