@@ -25,12 +25,12 @@ body {
 
 .star {
   border-radius: 50%;
-  background-color: var(--very-dark-blue);
+  background-color: #252e37;
   padding: 15px;
 }
 
 .rating-start {
-  background-color: var(--dark-blue);
+  background-color: #212832;
   padding: 30px;
   border-radius: 30px;
   width: 300px;
@@ -62,7 +62,7 @@ p {
   background: var(--orange);
 }
 .inactive {
-  background-color: var(--very-dark-blue);
+  background-color: #252e37;
 }
 
 .rating-btns button:hover { 
