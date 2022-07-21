@@ -53,14 +53,12 @@ p {
   height: 50px;
   width: 50px;
   border-radius: 50%; 
-  border: 2px transparent;
+  border: 1px transparent;
   color: var(--white);
   transition: all 0.1s;
 }
 
-.active {
-  background: var(--orange);
-}
+
 .inactive {
   background-color: #252e37;
 }
@@ -68,6 +66,10 @@ p {
 .rating-btns button:hover { 
   border: 2px solid var(--orange);
   cursor: pointer;
+}
+
+.rating-btns button:focus {
+  background-color: var(--orange);
 }
 
 
